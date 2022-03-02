@@ -71,8 +71,6 @@ class ClienteController extends Controller
 
         if ($flight) {
             return redirect(route('clientes.index'))->with('sucess', 'Cliente cadastrado com sucesso');
-        }else {
-            return 'errado';
         }
     }
 
